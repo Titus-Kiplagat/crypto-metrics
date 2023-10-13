@@ -7,8 +7,8 @@ import '@testing-library/jest-dom/extend-expect';
 import store from '../store';
 import CoinCard from '../components/CoinCard';
 
-describe('app routes', () => {
-  it('app elements', () => {
+describe('components', () => {
+  it('should render the component with the correct data', () => {
     const coin = {
       id: 'coinId',
       name: 'Bitcoin',
