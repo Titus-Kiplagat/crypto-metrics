@@ -10,7 +10,7 @@ const CoinCard = ({ coin }) => {
   } = coin;
 
   return (
-    <div className="p-2 space-y-2 card">
+    <div data-testid="coin-card" className="p-2 space-y-2 card">
       <NavLink to={`details/${id}`} className="flex items-center space-x-2">
         <svg
           width="30"
