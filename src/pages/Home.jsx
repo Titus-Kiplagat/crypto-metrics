@@ -18,7 +18,7 @@ const Home = () => {
   );
 
   return (
-    <div className="h-screen md:w-1/2 lg:w-1/2 mx-auto space-y-5">
+    <div data-testid="home" className="h-screen md:w-1/2 lg:w-1/2 mx-auto space-y-5">
       <Header />
       <Chart title1="CRYPTO" title2="CURRENCY" count={`${coins.length} coins`} />
       <SearchInput onSearchChange={handleSearchChange} />
